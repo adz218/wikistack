@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
 
 // app.use('/user', user);
 
-const PORT = 3000;
+const PORT = 1337;
 
 const init = async () => {
   await model.db.sync();
